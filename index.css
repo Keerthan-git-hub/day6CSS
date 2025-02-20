@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(239, 225, 225);
+}
+#navbar1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(243, 69, 69);
+    font-size: 30px;
+    border-radius: 30px;
+    flex-wrap: wrap;
+    
+}
+#navbar1 > img{
+    width: 90px;
+}
+#navbar1 > a{
+    color: wheat;
+    outline: none;
+    text-decoration: none;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+}
+#navbar2{
+    display: flex;
+    justify-content: space-around;
+}
+#img1 > img{
+    height: 70vh;
+    position: relative;
+    top: 300px;
+    left: 350px;
+    z-index: -1;
+}
+#img2 > img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    z-index: 1;
+    position: relative;
+    top: 700px;
+    right: 400px;
+}
+#coffeeshop{
+    width: 500px;
+    height: 250px;
+    position: relative;
+    top: 350px;
+    right: 40px;
+    background-color:rgb(239, 225, 225) ;
+    padding: 70px;
+    border-radius: 20px;
+}
+#coffeeshop > span{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(139, 139, 35);
+    text-align: center;
+}
+#coffeeshop > h1{
+    font-size: 30px;
+}
+#coffeeshop > p{
+    font-size: 15px;
+}
+#coffeeshop > ul{
+    font-size: 25px;
+}
+#navbar3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#storyofcoffee{
+    width: 600px;
+    height: 300px;
+    position: relative;
+    top: 200px;
+    right: 130px;
+    background-color:rgb(239, 225, 225) ;
+    padding: 70px;
+    border-radius: 20px;
+    position: relative;
+    top: 500px;
+    z-index: 1;
+}
+#storyofcoffee > span{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(139, 139, 35);
+    text-align: center;
+}
+#storyofcoffee > h1{
+    font-size: 30px;
+}
+#storyofcoffee > p{
+    font-size: 15px;
+}
+#img3 > img{
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    top: 500px;
+    left: 100px;
+    z-index: -1;
+}
+#img4 >  img{
+    width: 500px;
+    border-radius: 30px;
+    position: relative;
+    left: 200px;
+    z-index: 0;
+}
